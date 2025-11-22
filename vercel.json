@@ -1,16 +1,16 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "https://portfolio-lime-beta-19.vercel.app/"
-    },
-    {
       "source": "/quick-cart/(.*)",
       "destination": "https://quick-cart-silk-theta.vercel.app/$1"
     },
     {
       "source": "/dream-homes/(.*)",
       "destination": "https://dream-homes-fawn.vercel.app/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://portfolio-lime-beta-19.vercel.app/$1"
     }
   ]
 }
