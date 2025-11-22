@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://portfolio-lime-beta-19.vercel.app"
+      "source": "/(.*)",
+      "destination": "https://portfolio-lime-beta-19.vercel.app/"
     },
     {
       "source": "/quick-cart/(.*)",
