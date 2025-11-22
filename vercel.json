@@ -5,8 +5,8 @@
       "destination": "https://portfolio-lime-beta-19.vercel.app/"
     },
     {
-      "source": "/portfolio/(.*)",
-      "destination": "https://portfolio-lime-beta-19.vercel.app/"
+      "source": "/quick-cart/(.*)",
+      "destination": "https://quick-cart-silk-theta.vercel.app/"
     },
     {
       "source": "/dream-homes/(.*)",
