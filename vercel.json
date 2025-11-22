@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "https://portfolio-lime-beta-19.vercel.app/"
+    },
+    {
+      "source": "/portfolio/(.*)",
+      "destination": "https://portfolio-lime-beta-19.vercel.app/"
+    },
+    {
+      "source": "/dream-homes/(.*)",
+      "destination": "https://dream-homes-fawn.vercel.app/"
+    }
+  ]
+}
