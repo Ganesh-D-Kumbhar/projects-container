@@ -5,8 +5,16 @@
       "destination": "https://quick-cart-silk-theta.vercel.app/$1"
     },
     {
+      "source": "/quick-cart",
+      "destination": "https://quick-cart-silk-theta.vercel.app/"
+    },
+    {
       "source": "/dream-homes/(.*)",
       "destination": "https://dream-homes-fawn.vercel.app/$1"
+    },
+    {
+      "source": "/dream-homes",
+      "destination": "https://dream-homes-fawn.vercel.app/"
     },
     {
       "source": "/(.*)",
